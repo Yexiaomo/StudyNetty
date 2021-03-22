@@ -1,0 +1,6 @@
+//创建文件输入输出流
+final FileInputStream fileInputStream = new FileInputStream("1.txt");
+final FileOutputStream fileOutputStream = new FileOutputStream("2.txt");
+//创建通道
+final FileChannel fileChannel1 = fileInputStream.getChannel();
+final FileChannel fileChannel2 = fileOutputStream.getChannel();
